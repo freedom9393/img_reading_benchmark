@@ -16,4 +16,7 @@ def read_images_tensorflow(directory, batch_size=32):
 
     return image_ds
 
-images = read_images_tensorflow('path/to/images', 32)
+images_dataset = read_images_tensorflow('path/to/images', 32)
+
+for batch in image_dataset:
+    print(batch.shape)  # This will print the shape of each batch, e.g., (32, 224, 224, 3)
