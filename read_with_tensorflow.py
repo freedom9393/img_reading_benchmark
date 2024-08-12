@@ -31,6 +31,6 @@ def generate_with_tf(source_dir, batch_size, target_size):
 
     for batch in image_dataset:
         res = batch.shape[0]
-    print(f'Tensorflow: {time.time() - start_time}')
+    print(f'tensorflow: {time.time() - start_time}')
     del image_dataset
     gc.collect()
