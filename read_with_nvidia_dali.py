@@ -29,4 +29,4 @@ def run_with_pad(source_dir, batch_size, target_size, threads, total_images):
         images_ = outputs[0].as_cpu().as_array()
         continue
 
-    print(f'Spent time: {time.time() - start_time}')
+    print(f'nvidia dali: {time.time() - start_time}')
