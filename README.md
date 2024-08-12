@@ -1,6 +1,6 @@
 # Benchmarking of reading images
 
-This repository is aimed to benchmark several ways of reading images from directory. 31,000 images are used fot that.
+This repository is aimed to benchmark several ways of reading images from directory. 31,000 images are used for testing.
 
 ## How to benchmark?
 
