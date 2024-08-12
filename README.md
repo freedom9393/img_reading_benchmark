@@ -29,4 +29,4 @@ nvidia dali: 6.944435358047485
 ```
 
 ## Thoughts
-Better investigation is needed, `nvidia dali` should have been much faster, I guess? This task is just reading images, **so if we read and resize images or add more tasks, nvidia dali would have been faster**
+Better investigation is needed, cuz `nvidia dali` should have been much faster, I guess? This task is just reading images, **so if we read and resize images or add more tasks, nvidia dali would have been faster**
