@@ -16,7 +16,7 @@ python benchmark.py
 ```
 
 ## Results
-After benchmarking, I got these results (changed orders for better visualization):
+After benchmarking, I got these results (changed the order for better visualization):
 
 ```bash
 # Tested with 31,000 images
